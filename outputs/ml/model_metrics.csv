@@ -1,0 +1,2 @@
+model,rows_after_filtering,training_rows,testing_rows,MAE_seconds,RMSE_seconds,R2,runtime_seconds
+Random Forest,1456292,40000,10000,243.8972571566749,361.6887338755488,0.7031767747786528,2.444431781768799

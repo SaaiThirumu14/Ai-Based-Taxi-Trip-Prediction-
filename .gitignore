@@ -1,0 +1,28 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Source datasets and large Pig intermediates
+data/
+outputs/cleaned_taxi/
+outputs/hourly_stats/
+outputs/taxi_ml_ready/
+
+# Generated model binaries and experiment artifacts
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+
+# Keep the small, shareable ML result tables
+outputs/*
+!outputs/ml/
+outputs/ml/*
+!outputs/ml/*.csv
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
