@@ -1,7 +1,7 @@
-# Taxi Trip Duration Prediction
+# PrepTrack: ML-Based Taxi Trip Prediction Tool Using Apache Pig and ML Algorithms
 
-A machine-learning project that predicts taxi trip duration using trip,
-location, passenger, and pickup-time information.
+PrepTrack is a machine-learning tool that predicts taxi trip duration using
+trip, location, passenger, and pickup-time information.
 
 ## Dataset
 
@@ -52,6 +52,28 @@ Random Forest achieved the best reported results:
 ### Feature Importance
 
 ![Feature importance](docs/images/feature_importance.png)
+
+## Project Work
+
+The project uses Apache Pig to clean the Kaggle taxi-trip data, remove invalid
+records and outliers, and export a consistent dataset for machine learning.
+The prepared data is then used to train and compare four regression algorithms.
+The selected model estimates the expected duration of a taxi trip from the
+details provided by the user.
+
+## Judgement / Conclusion
+
+This project demonstrates that machine-learning algorithms can predict taxi
+trip duration from historical trip data. Apache Pig improves the reliability
+of the system by performing structured data cleaning and preprocessing before
+model training.
+
+Random Forest Regression achieved the best performance and was selected as the
+most suitable model for this project. The prediction tool can support travel
+duration estimation, taxi-service planning, passenger information, and
+transportation analysis. Predictions may still be affected by traffic,
+weather, road closures, accidents, and other real-time factors not included
+in the dataset.
 
 ## Project Outputs
 
