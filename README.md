@@ -5,7 +5,7 @@ location, passenger, and pickup-time information.
 
 ## Dataset
 
-This project uses the [Kaggle NYC Taxi Trip Duration dataset](https://www.kaggle.com/competitions/nyc-taxi-trip-duration/data).
+This project uses the [Kaggle NYC Taxi Trip Duration competition](https://www.kaggle.com/competitions/nyc-taxi-trip-duration/team).
 The dataset contains pickup and drop-off locations, pickup time, passenger
 count, vendor information, and the target trip duration.
 
